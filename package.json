@@ -1,0 +1,22 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sai Kiran Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "crawler": "^1.4.0",
+    "node-fs": "^0.1.7",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "simplecrawler": "^1.1.9",
+    "sinon": "^15.1.0",
+    "url": "^0.11.0"
+  }
+}
