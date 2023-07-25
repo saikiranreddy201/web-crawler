@@ -19,18 +19,18 @@ cd web-crawler
 
 ## Usage
 
-1. provide the url of the website you want to crawl in the command
+1. Run the server.js file using the command below
 ```
-node run dev <url>
+npm run dev
 ```
 
-2. Run the web crawler:
+2. Then navigate to ```localhost:3000/index.html``` and provide the URL of the website you want to crawl.
 
 
- The crawler will start fetching and parsing web pages based on the provided configuration.
+The crawler will start fetching and parsing web pages based on the provided configuration.
 
 3. View the results:
-- By default, the crawler will output the crawled data to the console.
+- By default, the crawler will output the crawled files to the public folder.
 - You can modify the code in `server.js` to save the data to a file or integrate it with a database, if desired.
 
 ## Customization
